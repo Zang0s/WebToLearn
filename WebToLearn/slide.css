@@ -1,0 +1,81 @@
+#demo{
+    background-color: #FDDFF8;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 20px;
+}
+.carousel-caption {
+    position: initial;
+    z-index: 10;
+    padding: 2rem 4rem;
+    background-color: #FDDFF8;
+    color: black;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    border-radius: 20px;
+}
+
+@media (max-width: 767px){
+    .carousel-caption {
+        position: initial;
+        z-index: 10;
+        padding: 3rem 2rem;
+        color: black;
+        background-color: #FDDFF8;
+        text-align: center;
+        font-size: 0.7rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+        border-radius: 20px;
+    }
+}
+.carousel-caption img{
+    width: 10rem;
+    border-radius: 5rem;
+}
+
+@media(max-width:767px){
+    .carousel-caption img{
+        width: 6rem;
+        border-radius: 4rem;
+        margin-top: 1rem;
+    }
+}
+#image-caption{
+    font-style: normal;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+@media(max-width:767px){
+    #image-caption{
+        font-style: normal;
+        font-size: 0.6rem;
+        margin-top: 0.5rem;
+    }
+}
+.carousel-control-prev i, .carousel-control-next i{
+    color: black;
+    padding: 1.4rem;
+}
+@media(max-width:767px){
+    .carousel-control-prev i, .carousel-control-next i{
+        padding: 0.8rem;
+    }
+}
+.carousel-control-prev{
+    justify-content: flex-start;
+}
+
+.carousel-control-next {
+    justify-content: flex-end;
+}
+.carousel-control-prev,.carousel-control-next{
+    transition: none;
+    opacity: unset;
+}
+
+
+
+
+

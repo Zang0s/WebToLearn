@@ -1,0 +1,21 @@
+.accordion-button:not(.collapsed)::after {
+    filter: brightness(0%);
+    border: 0;
+    transition: none;
+}
+
+.accordion-button:focus {
+    box-shadow: inherit;
+}
+
+.accordion-button1 {
+    border: 0;
+}
+
+.accordion {
+    border: 0;
+}
+
+.accordion-item {
+    border: 0;
+}
